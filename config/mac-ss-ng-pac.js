@@ -2,6 +2,7 @@ var proxy = "SOCKS5 127.0.0.1:1086; SOCKS 127.0.0.1:1086; DIRECT;";
 
 var rules = [
   "||auth0.openai.com",
+  "||beta.openai.com",
   "||platform.openai.com",
   "||httpbin.org",
 ];
