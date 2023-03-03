@@ -1,4 +1,5 @@
 [Rule]
 DOMAIN-SUFFIX,auth0.openai.com,Proxy
+DOMAIN-SUFFIX,platform.openai.com,Proxy
 DOMAIN-SUFFIX,httpbin.org,Proxy
 FINAL,DIRECT
