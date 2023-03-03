@@ -4,6 +4,7 @@ var rules = [
   "||auth0.openai.com",
   "||beta.openai.com",
   "||platform.openai.com",
+  "||api.openai.com",
   "||httpbin.org",
 ];
 
