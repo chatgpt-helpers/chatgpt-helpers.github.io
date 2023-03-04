@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ConsentText</key>
+	<dict>
+		<key>default</key>
+		<string>這個配置描述文件會統一化登錄項警告。在特殊環境中你可能需要禁止它，尤其是在企業管理環境中。對於消費者，你可以安裝這個描述文件，但是請特別注意，這種警告意味著你的系統可能會處於不安全的狀態，請立刻採取相應措施。請不要濫用，僅在必要時使用。This configuration profile will unify all Login Item Alerts on macOS 13 and newer. Please don't abuse, use it when necessary. You may need it in certain circumstances, especially like enterprise managed environment. For consumers, this kind of alert brings your attention to deal with carefully and take action asap. You will leave your system unsafe if you ignore these security notifications. For more details, please check "https://chatgpt-helpers.github.io".</string>
+	</dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>NotificationSettings</key>
+			<array>
+				<dict>
+					<key>AlertType</key>
+					<integer>1</integer>
+					<key>BadgesEnabled</key>
+					<true/>
+					<key>BundleIdentifier</key>
+					<string>com.apple.btmnotificationagent</string>
+					<key>CriticalAlertEnabled</key>
+					<true/>
+					<key>GroupingType</key>
+					<integer>1</integer>
+					<key>NotificationsEnabled</key>
+					<true/>
+					<key>PreviewType</key>
+					<integer>2</integer>
+					<key>ShowInCarPlay</key>
+					<false/>
+					<key>ShowInLockScreen</key>
+					<false/>
+					<key>ShowInNotificationCenter</key>
+					<true/>
+					<key>SoundsEnabled</key>
+					<false/>
+				</dict>
+			</array>
+			<key>PayloadDisplayName</key>
+			<string>Notifications</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.notificationsettings.11AF0384-EC0A-4452-BD4C-18093A8D3CC7</string>
+			<key>PayloadType</key>
+			<string>com.apple.notificationsettings</string>
+			<key>PayloadUUID</key>
+			<string>11AF0384-EC0A-4452-BD4C-18093A8D3CC7</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>這個配置描述文件會統一化登錄項警告。在特殊環境中你可能需要禁止它，尤其是在企業管理環境中。對於消費者，你可以安裝這個描述文件，但是請特別注意，這種警告意味著你的系統可能會處於不安全的狀態，請立刻採取相應措施。請不要濫用，僅在必要時使用。This configuration profile will unify all Login Item Alerts on macOS 13 and newer. Please don't abuse, use it when necessary. You may need it in certain circumstances, especially like enterprise managed environment. For consumers, this kind of alert brings your attention to deal with carefully and take action asap. You will leave your system unsafe if you ignore these security notifications. For more details, please check "https://chatgpt-helpers.github.io".</string>
+	<key>PayloadDisplayName</key>
+	<string>Login Items Alerts Unifier</string>
+	<key>PayloadIdentifier</key>
+	<string>79E6ACB4-57E2-4C59-BAB2-7640821BCDF3</string>
+	<key>PayloadOrganization</key>
+	<string>com.applepie.tonyliu2ca.Loginitemalertsunifier</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>9F162C3E-C535-4B62-9DA0-78A913FCFDF0</string>
+	<key>PayloadVersion</key>
+	<integer>2</integer>
+	<key>TargetDeviceType</key>
+	<integer>5</integer>
+</dict>
+</plist>
