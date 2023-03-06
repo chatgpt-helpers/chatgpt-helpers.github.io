@@ -3,5 +3,6 @@ DOMAIN-SUFFIX,auth0.openai.com,Proxy
 DOMAIN-SUFFIX,beta.openai.com,Proxy
 DOMAIN-SUFFIX,platform.openai.com,Proxy
 DOMAIN-SUFFIX,api.openai.com,Proxy
+DOMAIN-SUFFIX,labs.openai.com,Proxy
 DOMAIN-SUFFIX,httpbin.org,Proxy
 FINAL,DIRECT
