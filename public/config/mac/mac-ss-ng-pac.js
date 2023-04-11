@@ -6,6 +6,7 @@ var rules = [
   "||platform.openai.com",
   "||api.openai.com",
   "||labs.openai.com",
+  "||chat.openai.com",
   "||httpbin.org",
 ];
 
